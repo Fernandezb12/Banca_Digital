@@ -1,0 +1,86 @@
+:root {
+    --primary: #6209db;
+    --dark: #000000;
+    --light: #ffffff;
+    --grey: #f5f5f5;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--light);
+}
+
+.btn-primary:hover {
+    background-color: var(--light);
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-light {
+    background-color: var(--light);
+    color: var(--primary);
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+.main-section {
+    padding: 60px 0;
+}
+
+.badge {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.grey-background {
+    background-color: var(--grey);
+    min-height: 100vh;
+}
+
+.navbar-brand::after {
+    content: ".";
+    color: var(--primary);
+}
+
+.phone-img {
+    max-width: 70%; 
+}
+
+.store-info img {
+    max-width: 40px; 
+    margin-right: 10px; 
+}
+
+.store-info .card-text {
+    margin-left: -10px; 
+}
+
+.section-2 {
+    padding: 60px 0;
+}
+
+.section-2 .highlight {
+    color: var(--primary);
+}
+
+.section-2 img {
+    max-width: 60%; 
+    border-radius: 10px; 
+}
+
+.section-2 h2 {
+    font-size: 2.5rem;
+}
+
+.section-2 h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark); 
+}
+
+.section-2 p {
+    font-size: 1rem;
+    color: var(--dark);
+}
