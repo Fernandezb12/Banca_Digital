@@ -121,7 +121,9 @@
 .text-top2 {
     margin-top: -9.3%;
 }
-
+.text-top3 {
+    margin-top: -9.3%;
+}
 .section-3 {
     background-color: rgba(245, 245, 245, 0.9); 
     border-radius: 50px;
@@ -231,3 +233,46 @@
 .card-link:hover {
     text-decoration: underline;
 }
+/* Estilos para la ultima sección */
+
+.fourth-section {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 60px 0;
+    width: 70%;
+    border-radius: 30px;}
+
+.fourth-section h2 {
+    font-size: 2.5rem;
+}
+
+.fourth-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.fourth-section .form-control {
+    max-width: 100%;
+}
+
+footer {
+    background-color: var(--grey);
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .list-inline-item {
+    margin-right: 1rem;
+}
+
